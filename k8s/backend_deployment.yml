@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: somkiat/backend:0.1
+          image: blinkz333/backend:0.1
           ports:
             - containerPort: 3000
           env:

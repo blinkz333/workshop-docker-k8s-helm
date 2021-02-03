@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: mongo
-          image: somkiat/mongo:0.1
+          image: blinkz333/mongo:0.1
           ports:
             - containerPort: 27017
           env:

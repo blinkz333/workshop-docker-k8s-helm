@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: somkiat/frontend:0.1
+          image: blinkz333/frontend:0.1
           ports:
             - containerPort: 80
           imagePullPolicy: Always
